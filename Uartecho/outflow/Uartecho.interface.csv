@@ -1,0 +1,50 @@
+
+# Efinity Interface Configuration
+# Version: 2023.2.307
+# Date: 2024-04-21 19:01
+
+# Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+clkout, 0, 41, -1, io_systemClk
+clkout, 0, 43, -1, io_systemClk
+clkout, 0, 66, -1, io_systemClk
+clkout, 0, 67, -1, io_systemClk
+clkout, 0, 69, -1, io_systemClk
+clkout, 0, 70, -1, io_systemClk
+clkout, 0, 102, -1, io_systemClk
+clkout, 0, 103, -1, io_systemClk
+clkout, 0, 107, -1, io_systemClk
+clkout, 0, 108, -1, io_systemClk
+input, 333, 643, 1, __bypass__, io_asyncResetn
+input, 338, 318, 1, __bypass__, io_systemClk
+input, 0, 6, 3, __bypass__, jtag_inst1_CAPTURE
+input, 0, 2, 3, __bypass__, jtag_inst1_DRCK
+input, 0, 4, 3, __bypass__, jtag_inst1_RESET
+input, 0, 5, 1, __bypass__, jtag_inst1_RUNTEST
+input, 0, 2, 1, __bypass__, jtag_inst1_SEL
+input, 0, 5, 3, __bypass__, jtag_inst1_SHIFT
+input, 0, 4, 1, __bypass__, jtag_inst1_TCK
+input, 0, 3, 1, __bypass__, jtag_inst1_TDI
+output, 0, 2, 0, __bypass__, jtag_inst1_TDO
+input, 0, 3, 3, __bypass__, jtag_inst1_TMS
+input, 0, 6, 1, __bypass__, jtag_inst1_UPDATE
+optional input, 338, 641, 1, __bypass__, my_pll_refclk
+input, 0, 66, 1, __bypass__, system_spi_0_io_data_0_read
+output, 0, 66, 0, __bypass__, system_spi_0_io_data_0_write
+output, 0, 67, 0, __bypass__, system_spi_0_io_data_0_writeEnable
+input, 0, 69, 1, __bypass__, system_spi_0_io_data_1_read
+output, 0, 69, 0, __bypass__, system_spi_0_io_data_1_write
+output, 0, 70, 0, __bypass__, system_spi_0_io_data_1_writeEnable
+input, 0, 102, 1, __bypass__, system_spi_0_io_data_2_read
+output, 0, 102, 0, __bypass__, system_spi_0_io_data_2_write
+output, 0, 103, 0, __bypass__, system_spi_0_io_data_2_writeEnable
+input, 0, 107, 1, __bypass__, system_spi_0_io_data_3_read
+output, 0, 107, 0, __bypass__, system_spi_0_io_data_3_write
+output, 0, 108, 0, __bypass__, system_spi_0_io_data_3_writeEnable
+output, 0, 42, 0, __bypass__, system_spi_0_io_sclk_write
+output, 0, 40, 0, __bypass__, system_spi_0_io_ss
+input, 222, 643, 3, __bypass__, system_uart_0_io_rxd
+output, 223, 643, 0, __bypass__, system_uart_0_io_txd
+input, 330, 643, 3, __bypass__, systemClk_locked
+required output, 324, 643, 2, __bypass__, systemClk_rstn

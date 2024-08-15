@@ -1,0 +1,297 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307 
+Compiled: Dec 15 2023.
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from D:/Effinity/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'D:/Effinity/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'D:/Effinity/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 31.4252 seconds.
+	BuildGraph process took 30.8906 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 148.292 MB, end = 2314.8 MB, delta = 2166.51 MB
+	BuildGraph process peak virtual memory usage = 2340.88 MB
+BuildGraph process resident set memory usage: begin = 151.792 MB, end = 2263.05 MB, delta = 2111.26 MB
+	BuildGraph process peak resident set memory usage = 2288.86 MB
+check rr_graph process took 0.753952 seconds.
+	check rr_graph process took 0.75 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2529.69 MB, end = 2529.69 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2588.32 MB
+check rr_graph process resident set memory usage: begin = 2477.54 MB, end = 2477.6 MB, delta = 0.064 MB
+	check rr_graph process peak resident set memory usage = 2536.1 MB
+Generated 6654772 RR nodes and 25233351 RR edges
+This design has 0 global control net(s). See D:/Effinity/project/Uartecho/outflow\Uartecho.route.rpt for details.
+Routing graph took 32.758 seconds.
+	Routing graph took 32.1562 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 146.888 MB, end = 2241.4 MB, delta = 2094.51 MB
+	Routing graph peak virtual memory usage = 2588.32 MB
+Routing graph resident set memory usage: begin = 150.804 MB, end = 2193.97 MB, delta = 2043.16 MB
+	Routing graph peak resident set memory usage = 2536.1 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+WARNING(1): No ports matched 'system_spi_0_io_data_2_read'
+WARNING(2): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] No valid object(s) found for ''
+WARNING(3): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] set_input_delay: No valid input port(s) found
+WARNING(4): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(5): No ports matched 'system_spi_0_io_data_2_read'
+WARNING(6): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] No valid object(s) found for ''
+WARNING(7): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] set_input_delay: No valid input port(s) found
+WARNING(8): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(9): No ports matched 'system_spi_0_io_data_2_write'
+WARNING(10): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] No valid object(s) found for ''
+WARNING(11): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] set_output_delay: No valid output port(s) found
+WARNING(12): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(13): No ports matched 'system_spi_0_io_data_2_write'
+WARNING(14): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] No valid object(s) found for ''
+WARNING(15): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] set_output_delay: No valid output port(s) found
+WARNING(16): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(17): No ports matched 'system_spi_0_io_data_2_writeEnable'
+WARNING(18): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] No valid object(s) found for ''
+WARNING(19): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] set_output_delay: No valid output port(s) found
+WARNING(20): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(21): No ports matched 'system_spi_0_io_data_2_writeEnable'
+WARNING(22): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] No valid object(s) found for ''
+WARNING(23): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] set_output_delay: No valid output port(s) found
+WARNING(24): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(25): No ports matched 'system_spi_0_io_data_3_read'
+WARNING(26): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] No valid object(s) found for ''
+WARNING(27): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] set_input_delay: No valid input port(s) found
+WARNING(28): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(29): No ports matched 'system_spi_0_io_data_3_read'
+WARNING(30): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] No valid object(s) found for ''
+WARNING(31): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] set_input_delay: No valid input port(s) found
+WARNING(32): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(33): No ports matched 'system_spi_0_io_data_3_write'
+WARNING(34): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] No valid object(s) found for ''
+WARNING(35): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] set_output_delay: No valid output port(s) found
+WARNING(36): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(37): No ports matched 'system_spi_0_io_data_3_write'
+WARNING(38): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] No valid object(s) found for ''
+WARNING(39): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] set_output_delay: No valid output port(s) found
+WARNING(40): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(41): No ports matched 'system_spi_0_io_data_3_writeEnable'
+WARNING(42): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] No valid object(s) found for ''
+WARNING(43): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] set_output_delay: No valid output port(s) found
+WARNING(44): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(45): No ports matched 'system_spi_0_io_data_3_writeEnable'
+WARNING(46): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] No valid object(s) found for ''
+WARNING(47): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] set_output_delay: No valid output port(s) found
+WARNING(48): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(49): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] No clocks matched 'jtag_inst1_TCK'
+WARNING(50): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] set_output_delay: No valid clock found for -clock
+WARNING(51): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(52): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] No clocks matched 'jtag_inst1_TCK'
+WARNING(53): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] set_output_delay: No valid clock found for -clock
+WARNING(54): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(55): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] No clocks matched 'jtag_inst1_TCK'
+WARNING(56): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING(57): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(58): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] No clocks matched 'jtag_inst1_TCK'
+WARNING(59): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING(60): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(61): No ports matched 'jtag_inst1_RESET'
+WARNING(62): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] No clocks matched 'jtag_inst1_TCK'
+WARNING(63): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING(64): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(65): No ports matched 'jtag_inst1_RESET'
+WARNING(66): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] No clocks matched 'jtag_inst1_TCK'
+WARNING(67): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] set_input_delay: No valid clock found for -clock
+WARNING(68): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(69): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] No clocks matched 'jtag_inst1_TCK'
+WARNING(70): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] set_input_delay: No valid clock found for -clock
+WARNING(71): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(72): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] No clocks matched 'jtag_inst1_TCK'
+WARNING(73): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] set_input_delay: No valid clock found for -clock
+WARNING(74): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(75): No ports matched 'jtag_inst1_UPDATE'
+WARNING(76): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] No clocks matched 'jtag_inst1_TCK'
+WARNING(77): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] set_input_delay: No valid clock found for -clock
+WARNING(78): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(79): No ports matched 'jtag_inst1_UPDATE'
+WARNING(80): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] No clocks matched 'jtag_inst1_TCK'
+WARNING(81): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] set_input_delay: No valid clock found for -clock
+WARNING(82): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(83): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] No clocks matched 'jtag_inst1_TCK'
+WARNING(84): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] set_input_delay: No valid clock found for -clock
+WARNING(85): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(86): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] No clocks matched 'jtag_inst1_TCK'
+WARNING(87): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] set_input_delay: No valid clock found for -clock
+WARNING(88): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'D:/Effinity/project/Uartecho/Uartecho.pt.sdc' parsed successfully.
+1 clocks (including virtual clocks), 2 inputs and 6 outputs were constrained.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        15226              15.89               1.87
+         2         1685              21.31               2.04
+         3          297              21.31               1.59
+         4            3              21.31               0.69
+         5            1              21.31              0.402
+         6            0              21.31              0.322
+
+Successfully routed netlist after 6 routing iterations and 25817346 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 592303643
+Netlist fully routed.
+
+Successfully created FPGA route file 'D:/Effinity/project/Uartecho/outflow/Uartecho.route'
+Routing took 8.90473 seconds.
+	Routing took 8.78125 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2241.4 MB, end = 2260 MB, delta = 18.596 MB
+	Routing peak virtual memory usage = 2798.48 MB
+Routing resident set memory usage: begin = 2193.98 MB, end = 2215.93 MB, delta = 21.952 MB
+	Routing peak resident set memory usage = 2618.96 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+WARNING(89): No ports matched 'system_spi_0_io_data_2_read'
+WARNING(90): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] No valid object(s) found for ''
+WARNING(91): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] set_input_delay: No valid input port(s) found
+WARNING(92): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:38] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(93): No ports matched 'system_spi_0_io_data_2_read'
+WARNING(94): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] No valid object(s) found for ''
+WARNING(95): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] set_input_delay: No valid input port(s) found
+WARNING(96): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:39] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(97): No ports matched 'system_spi_0_io_data_2_write'
+WARNING(98): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] No valid object(s) found for ''
+WARNING(99): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] set_output_delay: No valid output port(s) found
+WARNING(100): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:40] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(101): No ports matched 'system_spi_0_io_data_2_write'
+WARNING(102): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] No valid object(s) found for ''
+WARNING(103): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] set_output_delay: No valid output port(s) found
+WARNING(104): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:41] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(105): No ports matched 'system_spi_0_io_data_2_writeEnable'
+WARNING(106): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] No valid object(s) found for ''
+WARNING(107): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] set_output_delay: No valid output port(s) found
+WARNING(108): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:42] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(109): No ports matched 'system_spi_0_io_data_2_writeEnable'
+WARNING(110): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] No valid object(s) found for ''
+WARNING(111): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] set_output_delay: No valid output port(s) found
+WARNING(112): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:43] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(113): No ports matched 'system_spi_0_io_data_3_read'
+WARNING(114): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] No valid object(s) found for ''
+WARNING(115): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] set_input_delay: No valid input port(s) found
+WARNING(116): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:44] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(117): No ports matched 'system_spi_0_io_data_3_read'
+WARNING(118): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] No valid object(s) found for ''
+WARNING(119): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] set_input_delay: No valid input port(s) found
+WARNING(120): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:45] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(121): No ports matched 'system_spi_0_io_data_3_write'
+WARNING(122): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] No valid object(s) found for ''
+WARNING(123): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] set_output_delay: No valid output port(s) found
+WARNING(124): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:46] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(125): No ports matched 'system_spi_0_io_data_3_write'
+WARNING(126): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] No valid object(s) found for ''
+WARNING(127): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] set_output_delay: No valid output port(s) found
+WARNING(128): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:47] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(129): No ports matched 'system_spi_0_io_data_3_writeEnable'
+WARNING(130): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] No valid object(s) found for ''
+WARNING(131): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] set_output_delay: No valid output port(s) found
+WARNING(132): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:48] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(133): No ports matched 'system_spi_0_io_data_3_writeEnable'
+WARNING(134): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] No valid object(s) found for ''
+WARNING(135): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] set_output_delay: No valid output port(s) found
+WARNING(136): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:49] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(137): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] No clocks matched 'jtag_inst1_TCK'
+WARNING(138): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] set_output_delay: No valid clock found for -clock
+WARNING(139): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:66] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(140): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] No clocks matched 'jtag_inst1_TCK'
+WARNING(141): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] set_output_delay: No valid clock found for -clock
+WARNING(142): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:67] Unable to run 'set_output_delay' constraint due to warnings found
+WARNING(143): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] No clocks matched 'jtag_inst1_TCK'
+WARNING(144): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] set_input_delay: No valid clock found for -clock
+WARNING(145): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:68] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(146): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] No clocks matched 'jtag_inst1_TCK'
+WARNING(147): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] set_input_delay: No valid clock found for -clock
+WARNING(148): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:69] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(149): No ports matched 'jtag_inst1_RESET'
+WARNING(150): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] No clocks matched 'jtag_inst1_TCK'
+WARNING(151): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] set_input_delay: No valid clock found for -clock
+WARNING(152): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:70] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(153): No ports matched 'jtag_inst1_RESET'
+WARNING(154): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] No clocks matched 'jtag_inst1_TCK'
+WARNING(155): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] set_input_delay: No valid clock found for -clock
+WARNING(156): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:71] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(157): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] No clocks matched 'jtag_inst1_TCK'
+WARNING(158): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] set_input_delay: No valid clock found for -clock
+WARNING(159): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:72] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(160): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] No clocks matched 'jtag_inst1_TCK'
+WARNING(161): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] set_input_delay: No valid clock found for -clock
+WARNING(162): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:73] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(163): No ports matched 'jtag_inst1_UPDATE'
+WARNING(164): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] No clocks matched 'jtag_inst1_TCK'
+WARNING(165): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] set_input_delay: No valid clock found for -clock
+WARNING(166): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:74] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(167): No ports matched 'jtag_inst1_UPDATE'
+WARNING(168): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] No clocks matched 'jtag_inst1_TCK'
+WARNING(169): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] set_input_delay: No valid clock found for -clock
+WARNING(170): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:75] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(171): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] No clocks matched 'jtag_inst1_TCK'
+WARNING(172): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] set_input_delay: No valid clock found for -clock
+WARNING(173): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:76] Unable to run 'set_input_delay' constraint due to warnings found
+WARNING(174): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] No clocks matched 'jtag_inst1_TCK'
+WARNING(175): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] set_input_delay: No valid clock found for -clock
+WARNING(176): [SDC D:/Effinity/project/Uartecho/Uartecho.pt.sdc:77] Unable to run 'set_input_delay' constraint due to warnings found
+
+SDC file 'D:/Effinity/project/Uartecho/Uartecho.pt.sdc' parsed successfully.
+1 clocks (including virtual clocks), 2 inputs and 6 outputs were constrained.
+
+Maximum possible analyzed clocks frequency
+ Clock Name  Period (ns)  Frequency (MHz)     Edge
+io_systemClk    21.428        46.668         (R-R)
+
+Geomean max period: 21.428
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  io_systemClk     io_systemClk        49.995           28.567           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+  io_systemClk     io_systemClk        0.000            0.295            (R-R)
+
+Write Timing Report to "D:/Effinity/project/Uartecho/outflow\Uartecho.timing.rpt" ...
+final timing analysis took 0.672954 seconds.
+	final timing analysis took 0.65625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2229.33 MB, end = 2235.38 MB, delta = 6.048 MB
+	final timing analysis peak virtual memory usage = 2798.48 MB
+final timing analysis resident set memory usage: begin = 2185.39 MB, end = 2189.61 MB, delta = 4.224 MB
+	final timing analysis peak resident set memory usage = 2618.96 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'D:/Effinity/project/Uartecho/outflow/Uartecho.interface.csv'.
+Successfully processed interface constraints file "D:/Effinity/project/Uartecho/outflow/Uartecho.interface.csv".
+Finished writing bitstream file D:/Effinity/project/Uartecho/work_pnr\Uartecho.lbf.
+Bitstream generation took 3.80645 seconds.
+	Bitstream generation took 3.5 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2235.38 MB, end = 2403.08 MB, delta = 167.7 MB
+	Bitstream generation peak virtual memory usage = 2798.48 MB
+Bitstream generation resident set memory usage: begin = 2189.64 MB, end = 2352.22 MB, delta = 162.58 MB
+	Bitstream generation peak resident set memory usage = 2618.96 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 84.7095 seconds.
+	The entire flow of EFX_PNR took 91.4375 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.628 MB, end = 258.964 MB, delta = 253.336 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 2798.48 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.608 MB, end = 264.16 MB, delta = 251.552 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2618.96 MB
